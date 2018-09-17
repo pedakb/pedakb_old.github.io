@@ -1581,26 +1581,26 @@
 		color: #000;
 		font-weight: 700;
 	}
-	
-	
+
+
 	#date_strong {
 		color: #45A29E;
-		font-weight: 700;		
+		font-weight: 700;
 	}
-	
+
 	#date_strong_1 {
 		color: #45A29E;
-		font-weight: 700;		
+		font-weight: 700;
 	}
-	
+
 	#date_strong_2 {
 		color: #45A29E;
-		font-weight: 700;		
+		font-weight: 700;
 	}
-	
+
 	#date_strong_3 {
 		color: 	#45A29E;
-		font-weight: 700;		
+		font-weight: 700;
 	}
 
 	em, i {
@@ -2571,7 +2571,7 @@
 			}
 
 				#header > nav ul li {
-					
+
 					display: block;
 					padding: 0;
 				}
@@ -2633,7 +2633,7 @@
 /* Footer */
 
 	#footer {
-		background: #ffffffff; 
+		background: #ffffffff;
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
@@ -2648,7 +2648,7 @@
 
 			#footer .copyright li {
 				border-left: solid 1px #d4d4d4;
-				
+
 				font-size: 0.8em;
 				margin-left: 1em;
 				padding-left: 1em;
@@ -2664,7 +2664,7 @@
 				#footer .copyright li a {
 	color: inherit;
 			}
-  
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
