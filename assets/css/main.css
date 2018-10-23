@@ -2010,6 +2010,7 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
+		max-width: 100%
 	}
 
 		.image img {
@@ -2607,9 +2608,11 @@
 /* Main */
 
 	#main > section {
-			}
+
+		}
 
 		#main > section > .container {
+			width: 75%;
 			padding: 6em 0 4em 0;
 		}
 
@@ -2723,6 +2726,7 @@
 
 			#wrapper {
 				padding-left: 20em;
+
 			}
 
 	}
@@ -2856,7 +2860,7 @@
 					width: 6em;
 					border: 0;
 					outline: 0;
-					left: 0;
+					left: -2em;
 				}
 
 					#titleBar .toggle:before {
@@ -2984,16 +2988,16 @@
 					}
 
 					#header > header h1 {
-	font-size: 1.5em;
-}
+						font-size: 1.5em;
+					}
 
 					#header > header p {
-	margin: 1em 0 0 0;
-}
+						margin: 1em 0 0 0;
+					}
 
-				#header > footer {
-					padding: 1.5em;
-				}
+					#header > footer {
+						padding: 1.5em;
+					}
 
 		/* Main */
 
@@ -3015,7 +3019,8 @@
 
 				#footer .copyright li {
 					border-left: 0;
-		display: inline-block;			display: block;
+					display: inline-block;
+					display: block;
 					line-height: 1.75em;
 					margin: 0.75em 0 0 0;
 					padding-left: 0;
@@ -3030,6 +3035,7 @@
 			#titleBar .toggle {
 				height: 4em;
 				width: 6em;
+				left: -3.2em;
 			}
 
 				#titleBar .toggle:before {
